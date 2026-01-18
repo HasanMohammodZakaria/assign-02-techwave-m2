@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    /* COLOR */
+
+    --primary-color: #00ff88;
+    --heading-color: #ffffff;
+    --text-color: #ffffff;
+    --badge-text-color: #1a0b2e;
+    --bg-color: ##1a0b2e;
+    --tech-wave-sec-bg-color: #230e3d;
+    --card-bg-color: rgba(53, 17, 101, 0.4);
+
+    /* TEXT SIZE */
+
+    --banner-heading-size: 3.75rem;
+    --other-heading-size: 3rem;
+    --banner-text-size: 1.125rem;
+}
