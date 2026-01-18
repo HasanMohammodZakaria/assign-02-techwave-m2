@@ -242,3 +242,109 @@
 .interview {
     grid-column: 1 / 3;
 }
+
+/* FEATURE SECTION RELATED STYLE */
+
+.feature-section {
+    background-color: var(--bg-color);
+    padding-block: 120px;
+}
+.feature-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.feature-title {
+    font-size: var(--other-heading-size);
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+.video-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.875rem;
+}
+.video-content {
+    background-color: var(--card-bg-color);
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    padding: 1.5rem; 
+    text-align: left;
+}
+.video-title {
+    font-size: var(--card-heading-size);
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+.video-descripton {
+    line-height: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+.show-time {
+    color: var(--primary-color);
+}
+.fa-clock {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+/* HOSTS SECTION RELATED STYLE */ 
+
+.host-section {
+    background-color: var(--bg-color);
+    padding-bottom: 120px;
+    text-align: center;
+}
+.section-title {
+    font-size: var(--other-heading-size);
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+.host-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--card-bg-color);
+    padding: 2.5rem;
+    border-radius: 2.5rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.host-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.host-description {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* FOOTER SECTION RELATED STYLE  */
+
+.footer-section {
+    background-image: url('../assets/footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 7.5rem;
+    text-align: center;
+}
+.footer-section img {
+    margin-bottom: 2rem; 
+}
+.footer-section ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+.footer-section ul li {
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.fa-podcast,.fa-youtube, .fa-twitter {
+    margin-right: 0.5rem;
+}
