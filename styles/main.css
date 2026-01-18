@@ -14,7 +14,7 @@
     --heading-color: #ffffff;
     --text-color: #ffffff;
     --badge-text-color: #1a0b2e;
-    --bg-color: ##1a0b2e;
+    --bg-color: #1a0b2e;
     --tech-wave-sec-bg-color: #230e3d;
     --card-bg-color: rgba(53, 17, 101, 0.4);
 
@@ -23,4 +23,47 @@
     --banner-heading-size: 3.75rem;
     --other-heading-size: 3rem;
     --banner-text-size: 1.125rem;
+}
+
+/* NAVBAR RELATED STYLE */
+
+.header-section {
+    background-color: var(--bg-color);
+    padding-block: 1.875rem;
+}
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu {
+    list-style: none;
+    display: flex;
+}
+.main-menu li {
+    margin-right: 1.25rem;
+}
+.main-menu li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.navbar .hamburger-icon {
+    display: none;
+}
+.navbar .nav-btn {
+    background: linear-gradient(90deg, rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)); 
+    font-weight: 600;
+    padding: 0.75rem 1rem ;
+    border-radius: 30px;
+    color: var(--text-color);
+    font-size: 16px;
+    border:none;
+}
+.fa-arrow-right {
+    margin-left: 8px;
 }
