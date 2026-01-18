@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    color: #ffffff;
 }
 
 :root {
@@ -23,6 +24,7 @@
     --banner-heading-size: 3.75rem;
     --other-heading-size: 3rem;
     --banner-text-size: 1.125rem;
+    --card-heading-size: 1.5rem;
 }
 
 /* NAVBAR RELATED STYLE */
@@ -146,4 +148,97 @@
 }
 .fa-envelope {
      margin-right: 0.5rem;
+}
+
+/* ABOUT SECTION RELATED STYLE */
+
+.about-section {
+    background-color: var(--bg-color);
+}
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-title {
+    font-size: var(--other-heading-size);
+    font-weight: bold;
+    padding-top: 3.125rem;
+    margin-bottom: 1rem;
+}
+.about-description{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding-inline: 14.375rem;
+    margin-bottom: 10rem; 
+}
+.counter-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7.5rem;
+    align-items: center;
+}
+.counter-title {
+    font-size: var(--other-heading-size);
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 1rem; 
+}
+.counter-description {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* TECH WAVE SECTION RELATED STYLE */
+
+.techwave-section {
+    background-color: var(--tech-wave-sec-bg-color);
+    padding-block: 120px;
+}
+.techwave-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.techwave-title {
+    font-size: var(--other-heading-size);
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+    gap: 1.875rem;
+}
+.card {
+    background-color: var(--card-bg-color);
+    padding: 2.5rem;
+    border-radius: 2.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.card>img {
+    margin-bottom: 1rem;
+}
+.card-title {
+    font-size: var(--card-heading-size);
+    margin-bottom: 1rem;
+}
+.audio {
+    grid-row: 1 / 3;
+    justify-content: center;
+}
+.mobile {
+    grid-column: 2 / 4;
+}
+.global {
+    grid-column: 2 / 4;
+}
+.interview {
+    grid-column: 1 / 3;
 }
