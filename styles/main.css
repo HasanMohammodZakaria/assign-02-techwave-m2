@@ -418,6 +418,7 @@
     }
 
     /* RESPONSIVE ABOUT SECTION FOR SMALL DEVICE */
+
     .about-container {
         width: 95%;
     }
@@ -441,5 +442,36 @@
     }
     .counter-title {
         font-size: 2.5rem;
+    }
+
+     /* RESPONSIVE TECH WAVE SECTION FOR SMALL DEVICE */
+    .techwave-section {
+        padding-block: 2.5rem;
+    }
+    .techwave-container {
+        width: 95%;
+    }
+    .techwave-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        justify-content: center;
+        padding: 1.5rem;
+    }
+    .audio {
+        grid-row: auto;
+    }
+    .mobile {
+        grid-column: auto;
+    }
+    .global {
+        grid-column: auto;
+    }
+    .interview {
+        grid-column: auto;
     }
 }
