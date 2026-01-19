@@ -36,6 +36,7 @@
 .header-section {
     background-color: var(--bg-color);
     padding-block: 1.875rem;
+    border-bottom: 1px solid #78788528;
 }
 .navbar {
     max-width: 1200px;
@@ -176,6 +177,9 @@
     line-height: 1.25rem;
     padding-inline: 14.375rem;
     margin-bottom: 5rem; 
+}
+.horizontal-row {
+    border: 1px solid #78788528;
 }
 .counter-container {
     display: flex;
@@ -361,6 +365,14 @@
     margin-right: 0.5rem;
     gap: 3rem;
 }
+.footer-hori-row {
+    width: 32.5rem;
+    margin: 0 auto;
+    border: 1px solid #78788528;
+}
+.copy-right-text {
+    margin-top: 1.25rem;
+}
 
 
 
@@ -470,9 +482,11 @@
     }
     .mobile {
         grid-column: auto;
+        padding: 1.5rem;
     }
     .global {
         grid-column: auto;
+        padding: 1.5rem;
     }
     .interview {
         grid-column: auto;
@@ -524,16 +538,20 @@
     .footer-section {
         padding: 2.5rem;
     }
-    .footer-section>img {
-        width: 13.75rem;
+    .footer-content>img {
+        width: 10rem;
     }
-    .footer-section ul {
+    .footer-content ul {
         flex-wrap: wrap;
-        column-gap: 2rem;
     }
     .fa-podcast,.fa-youtube, .fa-twitter {
         margin-right: 0.5rem;
         gap: 1rem;
     }
+    .footer-hori-row {
+        width: 25rem;
+        margin: 0 auto;
+        border: 1px solid #78788528;
+}
 
 }
