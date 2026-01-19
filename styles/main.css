@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    color: #ffffff;
+    color: #ffffff;            
 }
 
 :root {
@@ -25,6 +25,10 @@
     --other-heading-size: 3rem;
     --banner-text-size: 1.125rem;
     --card-heading-size: 1.5rem;
+}
+
+.hide {
+    display: none;
 }
 
 /* NAVBAR RELATED STYLE */
@@ -147,7 +151,8 @@
     color: var(--primary-color);
 }
 .fa-envelope {
-     margin-right: 0.5rem;
+    margin-right: 0.5rem;
+    color: var(--primary-color);
 }
 
 /* ABOUT SECTION RELATED STYLE */
@@ -263,6 +268,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1.875rem;
+    
+}
+.video-thumb {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem; 
+    display:block;
 }
 .video-content {
     background-color: var(--card-bg-color);
@@ -276,7 +287,7 @@
     font-weight: bold;
     margin-bottom: 0.75rem;
 }
-.video-descripton {
+.video-description {
     line-height: 1.5rem;
     margin-bottom: 0.75rem;
 }
@@ -347,4 +358,38 @@
 }
 .fa-podcast,.fa-youtube, .fa-twitter {
     margin-right: 0.5rem;
+}
+
+
+
+
+
+
+
+/* RESPONSIVE DESIGN FOR SMALL DEVICE */
+
+@media screen and (max-width: 576px) {
+    .header-section {
+        padding-block: 1.25rem;
+    }
+    .navbar {
+        width: 95%;
+    }
+    .nav-logo img {
+        width: 8.5625rem;
+    }
+    .main-menu {
+        display: none;
+    }
+    .navbar .nav-btn {
+        display: none;
+    }
+    .navbar .hamburger-icon {
+        display: inline;
+    }
+    .fa-bars {
+        font-size: 1.5rem;
+    }
+
+    
 }
