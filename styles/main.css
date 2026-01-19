@@ -418,4 +418,28 @@
     }
 
     /* RESPONSIVE ABOUT SECTION FOR SMALL DEVICE */
+    .about-container {
+        width: 95%;
+    }
+    .about-title {
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .about-description {
+        padding-inline: 0px;
+        margin-bottom: 2.5rem;
+    }
+    .horizontal-row {
+        color: #ffffff94;
+    }
+    .counter-container {
+        padding-block: 2.5rem;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        justify-content: space-around;
+    }
+    .counter-title {
+        font-size: 2.5rem;
+    }
 }
