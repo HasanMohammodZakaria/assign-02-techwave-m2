@@ -369,6 +369,9 @@
 /* RESPONSIVE DESIGN FOR SMALL DEVICE */
 
 @media screen and (max-width: 576px) {
+
+    /* RESPONSIVE NAVBAR SECTION FOR SMALL DEVICE  */
+
     .header-section {
         padding-block: 1.25rem;
     }
@@ -391,5 +394,28 @@
         font-size: 1.5rem;
     }
 
-    
+    /* RESPONSIVE BANNER SECTION FOR SMALL DEVICE  */
+
+    .banner-container {
+        padding-block: 2.5rem;
+    }
+    .circle-img>img {
+        width: 55%;
+    }
+    .mic-img {
+        width: 15%;
+        position: absolute;
+        top: 26%;
+        left: 43%;
+    }
+    .badge-text {
+        top: 3%;
+        left: 63%;
+    }
+    .banner-title {
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    /* RESPONSIVE ABOUT SECTION FOR SMALL DEVICE */
 }
