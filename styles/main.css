@@ -444,7 +444,8 @@
         font-size: 2.5rem;
     }
 
-     /* RESPONSIVE TECH WAVE SECTION FOR SMALL DEVICE */
+    /* RESPONSIVE TECH WAVE SECTION FOR SMALL DEVICE */
+
     .techwave-section {
         padding-block: 2.5rem;
     }
@@ -474,4 +475,23 @@
     .interview {
         grid-column: auto;
     }
+
+    /* RESPONSIVE FEATURE SECTION FOR SMALL DEVICE */
+
+    .feature-section {
+        padding-block: 2.5rem;
+    }
+    .feature-container {
+        width: 95%;
+    }
+    .feature-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .video-card {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+
+     /* RESPONSIVE FEATURE SECTION FOR SMALL DEVICE */
 }
