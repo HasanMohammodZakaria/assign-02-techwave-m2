@@ -175,13 +175,14 @@
     font-size: 1rem;
     line-height: 1.25rem;
     padding-inline: 14.375rem;
-    margin-bottom: 10rem; 
+    margin-bottom: 5rem; 
 }
 .counter-container {
     display: flex;
     justify-content: space-between;
     padding-bottom: 7.5rem;
     align-items: center;
+    padding-top: 5rem;
 }
 .counter-title {
     font-size: var(--other-heading-size);
@@ -358,6 +359,7 @@
 }
 .fa-podcast,.fa-youtube, .fa-twitter {
     margin-right: 0.5rem;
+    gap: 3rem;
 }
 
 
@@ -493,5 +495,45 @@
         row-gap: 1rem;
     }
 
-     /* RESPONSIVE FEATURE SECTION FOR SMALL DEVICE */
+    /* RESPONSIVE HOST SECTION FOR SMALL DEVICE */
+
+    .host-section{
+         padding-block: 2.5rem;
+    }
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .host-container {
+        width:95%;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .host-container>img {
+        margin-bottom: 1rem;
+    }
+    .host-content-container {
+        text-align: center;
+    }
+    .host-title {
+        font-size: 1.5rem;
+    }
+
+    /* RESPONSIVE HOST SECTION FOR SMALL DEVICE */
+
+    .footer-section {
+        padding: 2.5rem;
+    }
+    .footer-section>img {
+        width: 13.75rem;
+    }
+    .footer-section ul {
+        flex-wrap: wrap;
+        column-gap: 2rem;
+    }
+    .fa-podcast,.fa-youtube, .fa-twitter {
+        margin-right: 0.5rem;
+        gap: 1rem;
+    }
+
 }
