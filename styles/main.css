@@ -281,20 +281,20 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative;
-    overflow: hidden;    
+    overflow: hidden;
+    z-index: 1;    
 }
 .card::before {
     content: "";
-    width: 130%;
-    height: 130%;
+    width: 115%;
+    height: 150%;
     position: absolute;
     top: 0;
     right: 0;
-    background: linear-gradient(45deg, 
-    #007b70, #ecf955);
-
+    background: linear-gradient(45deg, #007b70, #ecf955);
     border-radius: 2.5rem;
-    animation: round-moving 3s linear infinite;
+    animation: round-moving 5s linear infinite;
+    z-index:-2; 
 }
 .card::after {
     content: "";
@@ -304,7 +304,8 @@
     top: 2px;
     right: 2px;
     bottom: 2px;
-    left: 2px
+    left: 2px;
+    z-index: -1; 
 }
 @keyframes round-moving {
     0% {
@@ -326,16 +327,11 @@
 }
 .card>img {
     margin-bottom: 1rem;
-    z-index: 1;
 }
 .card-title {
     font-size: var(--card-heading-size);
     margin-bottom: 1rem;
-    z-index: 1;
-}
-.card-description {
-    z-index: 1;
-}
+} 
 .audio {
     grid-row: 1 / 3;
     justify-content: center;
