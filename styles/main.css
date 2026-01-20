@@ -97,8 +97,12 @@
 }
 .mic-img {
     position: absolute;
-    top: 28%;
-    left: 47%;
+    /* top: 28%;
+    left: 47%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 .badge-text {
     width: 4.6875rem;
@@ -513,11 +517,12 @@
         width: 55%;
     }
     .mic-img {
-        width: 15%;
-        position: absolute;
-        top: 26%;
-        left: 43%;
-    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
     .badge-text {
         top: 3%;
         left: 63%;
