@@ -300,7 +300,6 @@
     position: absolute;
     border-radius: 2.5rem;
     background-color: #230e3d;
-    /* inset: 2px; */
     top: 2px;
     right: 2px;
     bottom: 2px;
@@ -309,6 +308,15 @@
 @keyframes round-moving {
     0% {
         transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
     }
     100% {
         transform: rotate(360deg);
