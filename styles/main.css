@@ -97,8 +97,6 @@
 }
 .mic-img {
     position: absolute;
-    /* top: 28%;
-    left: 47%; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -137,7 +135,7 @@
     background: linear-gradient(47deg, rgba(247, 233, 63, 1),
     rgba(251, 9, 180, 1),
     rgba(145, 0, 248, 1));
-    padding: 0.875rem 1.5rem;
+    padding: 0.75rem 1.25rem;
     border: 2px solid #ffffff;
     border-radius: 50px;
     font-size: 1rem;
@@ -149,7 +147,7 @@
 }
 .subscribe-btn {
     background-color: transparent;
-    padding: 0.875rem 1.5rem;
+    padding: 0.75rem 1.25rem;
     font-size: 1rem;
     border: 2px solid var(--primary-color);
     border-radius: 50px;
@@ -517,12 +515,12 @@
         width: 55%;
     }
     .mic-img {
+    width: 20%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-}
+    }
     .badge-text {
         top: 3%;
         left: 63%;
@@ -530,6 +528,12 @@
     .banner-title {
         font-size: 2.5rem;
         font-weight: 800;
+    }
+    .btn-container {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
     }
 
     /* RESPONSIVE ABOUT SECTION FOR SMALL DEVICE */
