@@ -291,9 +291,8 @@
     top: 0;
     right: 0;
     background: linear-gradient(45deg, 
-    rgba(247, 233, 63, 1),
-    rgba(251, 9, 180, 1),
-    rgba(145, 0, 248, 1));
+    #007b70, #ecf955);
+
     border-radius: 2.5rem;
     animation: round-moving 3s linear infinite;
 }
